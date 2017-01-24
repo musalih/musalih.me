@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Code Player</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <div id="menuBar">
+
+        <div id="logo">
+
+            CodePlayer
+        </div>
+
+        <div id="buttonDiv">
+            <button id="runButton">Run</button>
+
+        </div>
+        <ul id="toggles">
+            <li class="toggle selected">HTML</li>
+            <li class="toggle">CSS</li>
+            <li class="toggle">JS</li>
+            <li class="toggle selected" style="border: none">Result</li>
+        </ul>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="codeContainer" id="HTMLContainer">
+        <div class="codeLabel">HTML</div>
+        <textarea id="htmlCode"><p>Test</p></textarea>
+
+    </div>
+
+    <div class="codeContainer" id="CSSContainer">
+        <div class="codeLabel">CSS</div>
+        <textarea id="cssCode">html{background-color:blue;}</textarea>
+
+    </div>
+
+     <div class="codeContainer" id="JSContainer">
+         <div class="codeLabel">JS</div>
+         <textarea id="jsCode">alert('Test')</textarea>
+     </div>
+
+    <div class="codeContainer" id="ResultContainer">
+        <div class="codeLabel">Result</div>
+        <iframe id="resultFrame"></iframe>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="../../vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
