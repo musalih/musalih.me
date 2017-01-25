@@ -4,7 +4,7 @@ By: Mustafa Salih
 
 Credits:
 
-	Demo Images:
+	Background Images:
 		Unsplash (unsplash.com)
 
 	Icons:
